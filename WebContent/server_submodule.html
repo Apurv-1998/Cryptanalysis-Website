@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Server Submodule</title>
+<style>
+		body {
+			background-image: url('sub_module_image_1.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		.topnav{
+			background-color: #333;
+			overflow: hidden;
+		}
+		.topnav a{
+			float:left;
+			color: #f2f2f2;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration:none;
+			font-size:17px;
+
+		}
+		.topnav a:hover, .dropdown:hover .dropbtn {
+			background-color:#ddd;
+			color:black;
+		}
+		.topnav a.active {
+			background-color:#4CAF50;
+			color:white;
+		}
+		.dropdown {
+  			float: left;
+  			overflow: hidden;
+		}
+		.dropdown .dropbtn {
+  			font-size: 16px;
+  			border: none;
+  			outline: none;
+  			color: white;
+		  	padding: 14px 16px;
+		  	background-color: inherit;
+		  	font-family: inherit; /* Important for vertical align on mobile phones */
+		  	margin: 0; /* Important for vertical align on mobile phones */
+		}
+		.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 160px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+		}
+		.dropdown-content a {
+			  float: none;
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  display: block;
+			  text-align: left;
+		}
+
+/* Add a grey background color to dropdown links on hover */
+		.dropdown-content a:hover {
+		  background-color: #ddd;
+		}
+
+/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class = "topnav">
+		<a class = "active" href = "admin_submodule.html">Server Home</a>
+		<a  href = "user_file_cluster.html">Users</a>
+		<a  href = "cloud_file_cluster.html">Files</a>
+		<a href = "serverLogin.html">Logout</a>
+	</div>
+</body>
+</html>
